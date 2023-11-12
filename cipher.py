@@ -1,5 +1,5 @@
 alphabet = "abcdefghijklmnopqrstuvwxyz"
-encrpyted_message= ""
+encrypted_message= ""
 
 message = input("Enter your secret message:").lower() #print(message)
 shift = 5
@@ -9,7 +9,7 @@ for character in message:
         position = alphabet.find(character)
         new_position = (position + shift) % 26
         new_character = alphabet[new_position]
-        encrpyted_message += new_character
+        encrypted_message += new_character
     else:
-        encrpyted_message += character
-print("Your encrpyted message is " + encrpyted_message) #print(encrpyted message)
+        encrypted_message += character
+print("Your encrpyted message is " + encrypted_message) #print(encrypted message)
