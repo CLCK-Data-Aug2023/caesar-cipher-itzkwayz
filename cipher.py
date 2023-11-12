@@ -12,4 +12,4 @@ for character in message:
         encrypted_message += new_character
     else:
         encrypted_message += character
-print("Your encrpyted message is " + encrypted_message) #print(encrypted message)
+print("Your encrypted message is " + encrypted_message) #print(encrypted message)
